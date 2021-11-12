@@ -274,7 +274,7 @@ def main():
 
     if iupac_args.conversion_pairs == "high_low":
         orig_iupacs = {"low": [], "high": []}
-    elif iupac_args.conversion_pairs == "all_all":
+    elif iupac_args.conversion_pairs in ["high", "all_all"]:
         orig_iupacs = {"low": [], "med": [], "high": []}
 
     iupacs_per_key = math.ceil(iupac_args.num_orig_iupacs / len(orig_iupacs.keys()))
@@ -326,6 +326,10 @@ def main():
             # try all of <low>, <med> and <high> for all molecules
             orig_logp = {low: "low", med: "med", high: "high"}[inputs[H].item()]
             new_logps = ["low", "med", "high"]
+        elif iupac_args.conversion_pairs == "high":
+            # only use <high> for all inputs
+            orig_logp = {low: "low", med: "med", high: "high"}[inputs[H].item()]
+            new_logps = ["high"]
 
         for new_logp in new_logps:
             inputs[H] = {"low": low, "med": med, "high": high}[new_logp]
