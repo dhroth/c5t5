@@ -37,26 +37,41 @@ class IUPACArguments:
             default="Preferred", # for logp
             metadata={"help": "Name of column with IUPAC names"}
     )
-
+    tokenizer_type: Optional[str] = field(
+            default="IUPAC",
+            metadata={"help": "How to tokenize chemicals (SMILES vs. IUPAC)"}
+    )
 
 def main():
     parser = HfArgumentParser(IUPACArguments)
     iupac_args, = parser.parse_args_into_dataclasses()
 
     global tokenizer
-    tokenizer = T5IUPACTokenizer(vocab_file=iupac_args.vocab_fn)
+
+    if iupac_args.tokenizer_type == "IUPAC":
+        tokenizer_class = T5IUPACTokenizer
+    elif iupac_args.tokenizer_type == "SMILES":
+        tokenizer_class = T5SMILESTokenizer
+    else:
+        msg = "Unsupported tokenization type {}"
+        raise RuntimeError(msg.format(iupac_args.tokenizer_type))
+
+    tokenizer = tokenizer_class(vocab_file=iupac_args.vocab_fn)
+
 
     pad = tokenizer._convert_token_to_id("<pad>")
     unk = tokenizer._convert_token_to_id("<unk>")
 
     dataset_kwargs = {
             "dataset_dir": iupac_args.dataset_dir,
+            "dataset_filename": iupac_args.dataset_filename,
+            "name_col": iupac_args.name_col,
             "tokenizer": tokenizer,
             "max_length": 128,
             "prepend_target": False,
             "mean_span_length": 3,
             "mask_probability": 0,
-            #"dataset_size": 200000,
+            #"dataset_size": 50000,
     }
 
     pubchem_train = IUPACDataset(train=True, **dataset_kwargs)
