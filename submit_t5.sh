@@ -59,6 +59,11 @@ case $property in
         high_cutoff=130
         target_col="Refractivity"
         ;;
+    mass)
+        low_cutoff=296
+        high_cutoff=402
+        target_col="Mass"
+        ;;
     *)
         echo unsupported property $property
         exit
