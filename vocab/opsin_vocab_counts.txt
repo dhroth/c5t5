@@ -1,0 +1,1123 @@
+175549639 (
+  35943 (1+)
+   2794 (1-)
+ 175379 (2+)
+   8590 (2-)
+  53154 (3+)
+    211 (3-)
+  30993 (4+)
+     10 (4-)
+   2437 (5+)
+   1308 (6+)
+    105 (7+)
+    127 (8+)
+175549639 )
+195479608 ,
+1121225183 -
+    287 5,6,7,8-tetrahydropter
+    456 7,8-dihydropter
+158320521 [
+158320521 ]
+14940054 a
+    607 aceanthrylen
+  23241 acenaphthylen
+   2592 acenaphthyleno
+    245 acephenanthrylen
+14326081 acet
+  77178 acetal
+ 214662 aceton
+  24169 acetylen
+     13 acridarsin
+ 137996 acridin
+     19 acridino
+    750 acridophosphin
+      3 actina
+   6783 actinium
+ 379129 adamant
+    155 adip
+ 180182 al
+  21635 aldehyde
+     61 all
+      4 alli
+      3 allo
+    428 alum
+  20703 aluma
+   1447 alumina
+   6962 aluminum
+     15 amate
+    324 americium
+      6 amic acid
+  10637 amid
+20059524 amide
+ 993489 amido
+10788961 amine
+30040654 amino
+    306 amoyl
+46923188 an
+5782777 ane
+1253218 anilin
+4131101 anilino
+   1442 anisol
+    918 anthra
+ 296691 anthracen
+   3392 antimony
+  52540 ar
+      1 argentio
+    669 argon
+    110 ars
+   8512 arsa
+      7 arsanthren
+      7 arsanthridin
+      2 arsanuida
+      9 arsen
+    506 arsenic
+   1034 arsin
+     72 arsindol
+      3 arsindolizin
+      3 arsindolo
+      1 arsinimyl
+    154 arsino
+     16 arsinolin
+      3 arsinolino
+      4 arsinolizin
+    331 arso
+   1490 arson
+     93 arsonato
+     16 arsonia
+     83 arsonium
+    385 arsono
+    110 arsonous acid
+   1003 arsor
+    429 arsoroso
+   1106 as-indacen
+    170 as-indaceno
+     32 astata
+    403 astatine
+ 231757 at
+8939999 ate
+      2 aurio
+3187898 az
+5154430 aza
+  20231 azanida
+     25 azid
+  73757 azide
+1654691 azido
+1782687 azin
+  44149 azino
+4679517 azo
+  27278 azon
+ 143047 azonia
+      3 azonic acid
+     39 azonous acid
+     39 azor
+  27878 azulen
+   6953 azuleno
+      2 bara
+   6458 barium
+9627637 benz
+ 164731 benzal
+3936127 benzen
+ 148260 benzhydr
+14379751 benzo
+     34 berkelium
+   1438 beryllium
+2382206 bi
+   3244 biphenylen
+2379202 bis
+     19 bis(trifluoromethylsulfonyl)imid
+    476 bism
+    278 bisma
+   3927 bismuth
+     12 bohrium
+ 145855 bor
+ 155460 bora
+    963 borano
+    452 boranthren
+  12151 boranuida
+  47692 borin
+   4187 boron
+     51 boronia
+  84684 boronic acid
+   9678 borono
+     84 brom
+  25029 broma
+     23 bromat
+    366 bromate
+     74 bromic acid
+    642 bromid
+  86745 bromide
+    249 bromine
+     63 bromite
+7810759 bromo
+     55 bromoform
+     16 bromonio
+     58 bromosyl
+      3 bromous acid
+    154 bromyl
+18520196 but
+   5684 but-1-eno
+ 235945 but-2-eno
+   1901 buta-1,3-dieno
+      3 butoxyl
+   4292 cadmium
+  18635 calcium
+      3 californa
+    195 californium
+ 390824 carba
+4132480 carbam
+1584728 carbamate
+ 252300 carbamic acid
+  67921 carbamimidamido
+ 836998 carbazol
+ 271452 carbo
+ 163512 carbohydrazide
+   1111 carbohydrazonoyl
+1304457 carbon
+ 186146 carbonimidoyl
+  26311 carbono
+5348574 carbonyl
+     55 carboselenoyl
+      8 carbotelluroyl
+  38961 carbothioyl
+ 641517 carbox
+9800200 carboxamide
+  59098 carboximidoyl
+ 717704 carboxy
+4663575 carboxylate
+  30227 carboxylato
+3324392 carboxylic acid
+  80315 cen
+      6 cera
+      2 cerio
+   2857 cerium
+   3216 cesium
+    219 chlor
+  40329 chlora
+     40 chlorat
+    485 chlorate
+     24 chlorazin
+      3 chlorazine
+      1 chloric
+    103 chloric acid
+  17536 chlorid
+ 375472 chloride
+    186 chlorine
+    196 chlorite
+18713514 chloro
+   2895 chloroform
+    137 chloronia
+    554 chloronio
+    500 chlorosyl
+      1 chlorous
+     16 chlorous acid
+    791 chloryl
+      7 chroma
+1090764 chromen
+  91337 chromeno
+   3926 chromenylium
+    196 chromio
+  13613 chromium
+  61649 chrysen
+      8 chryseno
+   3589 cinnam
+  45807 cinnolin
+     78 cinnolino
+  23372 cobalt
+      6 cobaltio
+  37523 copper
+    592 coronen
+   3860 corrin
+     21 cos
+   1631 cub
+    742 cumen
+    247 curium
+  17955 cyanamide
+   7541 cyanate
+   4359 cyanato
+    752 cyanic acid
+    370 cyanid
+  14767 cyanide
+2551569 cyano
+23128478 cyclo
+      2 cyclopenta[a]phenanthr
+ 466533 cyclopenta[a]phenanthren
+4098278 d
+ 382793 dec
+1267899 deca
+    380 decakis
+  17287 dehydro
+     56 deuteride
+ 257206 deuterio
+     14 deutero
+60388330 di
+   4338 diacetamid
+     18 diarson
+     58 diarsor
+   4426 diazano
+3195087 diazo
+      5 diazoamino
+   3415 diazonio
+  13927 diazonium
+    705 dibenzamid
+   5435 dibor
+    120 diboron
+ 105350 dicarbon
+   2585 dicarboximid
+      3 dichrom
+    253 dict
+  55780 dicyan
+    132 dicyclohexylurea
+   4710 dihydropter
+   5263 dili
+   1679 dimethoxyethan
+   1784 dimethoxyethane
+  73383 dimethylacetamide
+  15573 dimethylurea
+   8461 diphosphat
+   1621 diphosphate
+     20 diphosphite
+   1362 diphospho
+   7683 diphosphon
+    367 diphosphor
+   2881 diselen
+    124 diselenid
+     18 diselenon
+     24 disilic
+     20 distibor
+    612 disulfate
+    908 disulfid
+    233 disulfide
+     56 disulfite
+  64321 disulfon
+    338 ditellur
+     19 ditelluron
+    293 dithianon
+   6331 dithion
+    296 diyl
+   4379 do
+ 255796 docos
+      1 docosakis
+ 290684 dodec
+ 807510 dodeca
+    531 dodecakis
+  14667 dotetracont
+  25618 dotriacont
+     31 dubnium
+      2 dysprosio
+   1261 dysprosium
+42509526 e
+   6488 ecan
+  11846 ecin
+      6 eicosa
+     92 einsteinium
+13853769 en
+3032153 ene
+1123120 epan
+1283412 epin
+  20739 epoxy
+      1 erbio
+   1080 erbium
+  24233 et
+  29041 etan
+45199797 eth
+  64677 etheno
+      7 ethion
+      1 ethoxyl
+ 787391 etidin
+      1 europio
+   2289 europium
+    450 fermium
+     19 ferra
+     21 ferrio
+     96 fluor
+   8302 fluora
+  20446 fluoranthen
+ 641648 fluoren
+  11507 fluoreno
+   1795 fluorid
+  24138 fluoride
+    611 fluorine
+23292571 fluoro
+   1090 fluoroform
+     25 fluoronio
+ 464875 form
+  58131 formamid
+ 135899 formamide
+     87 formazan
+      7 francium
+     20 fulven
+4509953 furan
+     53 furano
+ 500551 furo
+      1 gadolinio
+   3439 gadolinium
+    239 gall
+   1850 galla
+   1625 gallium
+   7525 germ
+   6093 germa
+    272 germanium
+     17 germano
+      5 germanuida
+   9041 gold
+1359309 guanidin
+     33 hafna
+   8784 hafnium
+      4 hassium
+   1934 hect
+    329 helicen
+     56 helium
+   6000 hen
+ 264904 henicos
+     10 henicosakis
+   6368 hentetracont
+  20358 hentriacont
+ 970157 hept
+2365862 hepta
+   3090 heptacont
+  68183 heptacos
+      1 heptacosakis
+   1389 heptacosyl
+  68750 heptadec
+ 315207 heptadeca
+     12 heptadecakis
+  15488 heptadecyl
+   5576 heptakis
+      9 heptali
+   1418 heptatetracont
+  10081 heptatriacont
+5836891 hex
+6037665 hexa
+   8759 hexacont
+ 100435 hexacos
+      4 hexacosakis
+ 145726 hexadec
+ 434869 hexadeca
+    115 hexadecakis
+  11700 hexakis
+    140 hexali
+      1 hexasulfid
+     46 hexasulfide
+   4196 hexatetracont
+  27987 hexatriacont
+   1173 hexatriacontyl
+      1 holmio
+    735 holmium
+  87025 hydrate
+ 219856 hydrazide
+1181259 hydrazin
+   5373 hydrazon
+    587 hydrazonic
+  15368 hydrazono
+   5061 hydride
+    428 hydrido
+14500788 hydro
+  46163 hydrobromide
+1737993 hydrochloride
+   4266 hydrofluoride
+ 279139 hydrogen
+ 932522 hydroiodide
+  40236 hydroperoxy
+      1 hydroseleninyl
+    528 hydroseleno
+      2 hydroselenonyl
+     51 hydrotelluro
+  13804 hydroxide
+16962379 hydroxy
+      1 hydroxyl
+ 136620 hydroxylamin
+      1 hypobor
+   2289 hypobromite
+     41 hypobromous acid
+   8555 hypochlorite
+    533 hypochlorous acid
+  13269 hypofluorite
+    157 hypofluorous acid
+  16124 hypoiodite
+    346 hypoiodous acid
+ 232947 ic
+7138720 ic acid
+ 369897 icos
+     66 icosakis
+ 255366 id
+ 341376 ide
+   2232 ido
+ 910739 imid
+1529388 imidazo
+4548227 imidazol
+ 737956 imidazolidin
+  15842 imidazolo
+ 700049 imido
+ 416832 imine
+1315267 imino
+ 999501 in
+ 184773 inan
+    522 inda
+      4 indan
+ 626749 indazol
+    953 indazolo
+ 843849 inden
+ 130522 indeno
+   1305 indig
+   1390 indiga
+   1187 indium
+3696265 indol
+  97115 indolizin
+   4669 indolizino
+  98722 indolo
+ 355597 ine
+   1366 inin
+  51998 io
+   6940 iod
+ 144134 ioda
+    982 iodat
+    661 iodate
+      1 iodic
+     52 iodic acid
+   2418 iodid
+  65311 iodide
+    830 iodine
+     73 iodite
+1326669 iodo
+    178 iodoform
+    641 iodonia
+    886 iodonio
+   2229 iodosyl
+      2 iodous
+      2 iodous acid
+   1236 iodyl
+  16476 iran
+   2338 iren
+     12 irida
+  71191 iridin
+      1 iridio
+  28819 iridium
+  17021 irin
+  38386 iron
+     10 isoarsindol
+      4 isoarsinolin
+  79896 isochromen
+   4774 isochromeno
+    232 isochromenylium
+   2281 isocyanate
+    105 isocyanatid
+  77354 isocyanato
+     12 isocyanid
+    259 isocyanide
+ 142642 isocyano
+ 891556 isoindol
+  45708 isoindolo
+    909 isophosphindol
+     10 isophosphindolo
+    258 isophosphinolin
+     18 isophosphinolino
+1269230 isoquinolin
+  14049 isoquinolino
+    144 isoselenochromen
+      5 isoselenocyanate
+      2 isoselenocyanato
+     58 isotellurochromen
+      2 isotellurochromeno
+   9032 isothiochromen
+    652 isothiochromeno
+     30 isothiochromenylium
+   1375 isothiocyanate
+     31 isothiocyanatid
+  23514 isothiocyanato
+      1 isothiocyanic acid
+1546085 it
+   2635 ite
+2566885 ium
+     63 krypton
+13854360 l
+      4 lanthanio
+   2401 lanthanum
+    175 lawrencium
+   2767 lead
+  42507 len
+  31615 lithium
+      1 lutetio
+   1037 lutetium
+      3 magnesio
+  23462 magnesium
+      4 mangana
+  13802 manganese
+      6 manganio
+     42 meitnerium
+     27 mendelevium
+    166 mercura
+    651 mercurio
+  11332 mercury
+145745419 meth
+    107 methoxychlor
+      3 methoxyl
+   1826 methylal
+     90 molybda
+    125 molybdenio
+   8451 molybdenum
+     32 mon
+  18523 mono
+2810500 morpholin
+2834748 naphthalen
+  70124 naphtho
+ 340122 naphthyridin
+    173 naphthyridino
+     75 neo
+      5 neodymio
+   2164 neodymium
+     26 neon
+    369 neptunium
+  28523 nickel
+      2 nickelio
+     13 nioba
+      2 niobio
+   1481 niobium
+   7400 nitramide
+   5618 nitramido
+  25434 nitrate
+      3 nitric
+   5848 nitric acid
+     77 nitrid
+1189798 nitrile
+   2207 nitrilium
+   3469 nitrite
+4156155 nitro
+    125 nitroform
+    943 nitrogen
+   8880 nitron
+     32 nitronium
+      1 nitror
+ 124305 nitroso
+     27 nitrosyl
+   5376 nitrous
+    701 nitrous acid
+     19 nitrous oxide
+    952 nitroxyl
+     82 nobelium
+ 255398 non
+ 889839 nona
+    893 nonacont
+  36092 nonacos
+      7 nonacosakis
+   1322 nonacosyl
+  70659 nonadec
+ 239737 nonadeca
+     22 nonadecakis
+   8403 nonadecyl
+  21541 nonafl
+    412 nonakis
+     14 nonali
+   8042 nonatetracont
+  10025 nonatriacont
+21132849 o
+  10624 ocan
+  20361 ocin
+ 782529 oct
+1063681 octa
+   1663 octacont
+  79072 octacos
+      4 octacosakis
+ 213155 octadec
+ 394143 octadeca
+     11 octadecakis
+   4040 octakis
+     54 octali
+1059328 octan
+   5689 octatetracont
+  15588 octatriacont
+12097773 ol
+ 122593 olan
+ 105224 olate
+1798739 ole
+1300101 olidin
+  24879 on
+    139 onamide
+   1410 onan
+    470 onat
+    876 onate
+14774063 one
+   3287 onic acid
+   2868 onin
+     48 orot
+  11518 os
+    292 ose
+     16 osma
+   4576 osmium
+     34 oson
+     26 ous
+   1512 ous acid
+     85 ovalen
+ 808899 ox
+10189271 oxa
+  49424 oxal
+   2866 oxaldehyd
+    374 oxaldehyde
+   3291 oxalo
+   4314 oxam
+ 188953 oxamide
+   4432 oxanthren
+      4 oxanthreno
+ 186095 oxet
+  65389 oxid
+ 173679 oxide
+ 273461 oxido
+ 281015 oxir
+24326115 oxo
+   2509 oxonia
+   4932 oxonio
+   3210 oxonium
+43440393 oxy
+  41408 oxybenzon
+   7530 oxygen
+     66 oxyl
+10077469 oyl
+     44 ozone
+      5 pallada
+  21395 palladium
+4104894 pent
+7036821 penta
+  30003 pentacont
+  90374 pentacos
+     11 pentacosakis
+   1583 pentacosyl
+  52524 pentadec
+ 277876 pentadeca
+     47 pentadecakis
+  21076 pentadecyl
+  13571 pentakis
+     88 pentali
+      3 pentaphosphat
+     33 pentaphosphate
+     22 pentasulfide
+   2065 pentatetracont
+     19 pentathion
+  13896 pentatriacont
+     20 pentazocin
+     21 pentazocine
+     34 perbromate
+      1 perbromic acid
+      2 perbromyl
+  19216 perchlorate
+   2372 perchloric acid
+    499 perchloryl
+   5996 perimidin
+    165 periodate
+      1 periodic
+     48 periodic acid
+     36 periodyl
+    108 permangan
+  36163 perox
+   2102 peroxide
+ 115129 peroxy
+   7822 perylen
+    801 phen
+  45431 phenac
+  10834 phenalen
+    520 phenaleno
+ 133791 phenanthren
+  45046 phenanthridin
+  20683 phenanthro
+  42389 phenanthrolin
+    128 phenarsazinin
+  20534 phenazin
+      3 phenazino
+ 746058 phenol
+  41924 phenolate
+    398 phenophosphazinin
+    349 phenoselenazin
+     42 phenotellurazin
+      4 phenothiarsinin
+  50995 phenothiazin
+      2 phenothiazino
+    820 phenoxaphosphinin
+    171 phenoxarsinin
+     12 phenoxaselenin
+      5 phenoxastibinin
+     21 phenoxatellurin
+   4146 phenoxathiin
+      6 phenoxathiino
+  28122 phenoxazin
+    591 phenoxid
+5626041 phenoxy
+      4 phenoxyl
+66724787 phenyl
+   2028 phenylen
+    519 phenylene
+  16509 phosph
+ 656604 phospha
+    400 phosphanida
+    444 phosphano
+     24 phosphanthren
+    242 phosphanthridin
+      6 phosphanuida
+   6304 phosphat
+ 227483 phosphate
+     70 phosphen
+    409 phospheno
+ 123534 phosphin
+   4153 phosphindol
+     43 phosphindolizin
+   1053 phosphindolo
+    773 phosphinimyl
+  60094 phosphino
+    523 phosphinolin
+     73 phosphinolino
+     50 phosphinolizin
+      2 phosphinolizino
+  21599 phosphite
+  48872 phospho
+  95938 phosphon
+  10571 phosphonato
+   4478 phosphonia
+ 114261 phosphono
+   4141 phosphonous acid
+ 663714 phosphor
+  12444 phosphoroso
+    136 phosphorus
+  45511 phthal
+    682 phthalal
+ 166308 phthalazin
+    103 phthalazino
+  46817 picen
+5066191 piperazin
+9438258 piperidin
+     21 platina
+  42121 platinum
+    112 pleiaden
+    970 plumb
+    975 plumba
+    289 plutonium
+    418 pol
+    175 polona
+     46 polonium
+  57210 porphyrin
+     24 potassio
+  61857 potassium
+      3 praseodyma
+      5 praseodymio
+   1792 praseodymium
+     49 prism
+    242 promethium
+42987105 prop
+      1 propoxyl
+     98 protactinium
+  53991 pteridin
+     12 pteridino
+ 662126 purin
+  20967 purino
+ 280947 pyran
+ 240377 pyrano
+    391 pyranthren
+1370592 pyrazin
+  88973 pyrazino
+5690030 pyrazol
+ 110828 pyrazolidin
+1327893 pyrazolo
+  68339 pyren
+    315 pyreno
+1115396 pyridazin
+  17283 pyridazino
+14732925 pyridin
+     42 pyridino
+ 851532 pyrido
+7499151 pyrimidin
+     12 pyrimidino
+ 200499 pyrimido
+2281642 pyrrol
+6971887 pyrrolidin
+  39238 pyrrolizin
+1556707 pyrrolo
+   3752 pyrylium
+1226972 quinazolin
+   1253 quinazolino
+2935032 quinolin
+   6952 quinolino
+  59095 quinolizin
+      7 quinolizino
+ 454187 quinoxalin
+   1404 quinoxalino
+1888230 r
+     16 radium
+     19 radon
+      2 rhena
+     21 rhenio
+   7965 rhenium
+      3 rhoda
+      3 rhodio
+  10670 rhodium
+     33 ribo
+    124 rubicen
+   5759 rubidium
+      9 ruthena
+  22065 ruthenium
+   2378 rutherfordium
+  11652 s-indacen
+      5 s-indaceno
+      5 samario
+   1892 samarium
+      1 scandio
+   1771 scandium
+     39 seaborgium
+  38388 sel
+    303 selen
+  15210 selena
+     44 selenanthren
+    221 selenat
+    362 selenate
+   1336 selenido
+    354 selenin
+     52 selenino
+    820 seleninyl
+    163 selenite
+    419 selenium
+   1767 seleno
+   1499 selenoate
+    298 selenochromen
+     28 selenochromeno
+    236 selenocyanat
+    678 selenocyanate
+   2899 selenol
+     83 selenomorpholin
+    171 selenon
+     41 selenonia
+     28 selenono
+    352 selenonyl
+     38 selenoph
+   6283 selenophen
+   1035 selenopheno
+    715 selenopyran
+     40 selenopyrano
+    307 selenoxanthen
+    890 selone
+ 728631 sil
+ 371698 sila
+    392 silanida
+    454 silano
+    211 silanthren
+    976 silanuida
+    343 silanylia
+   4302 silicate
+    288 silicic acid
+    571 silicon
+   9204 silver
+     28 sodio
+ 182864 sodium
+2167225 spiro
+  37932 spirobi
+  25584 stann
+  20068 stanna
+      1 stannanida
+      3 stannano
+      5 stannanuida
+     24 stannanylia
+     98 stib
+   3208 stiba
+      2 stibano
+     17 stibanuida
+    148 stibin
+      5 stibino
+    409 stibo
+    102 stibon
+      6 stibonato
+      6 stibonia
+      2 stibonium
+     44 stibono
+    397 stibor
+    234 stilben
+      3 stronta
+   2473 strontium
+   3119 styren
+8277321 sulf
+1311845 sulfam
+  22963 sulfamate
+  11163 sulfamic acid
+    278 sulfamide
+  79971 sulfate
+    393 sulfenat
+    646 sulfide
+  17042 sulfido
+  52694 sulfin
+  66293 sulfinam
+  20409 sulfinato
+  26033 sulfino
+ 412378 sulfinyl
+  10634 sulfite
+ 206186 sulfo
+3533685 sulfon
+  41651 sulfonato
+   3223 sulfonio
+    961 sulfonium
+  12583 sulfono
+6104120 sulfonyl
+  18277 sulfur
+     10 t-
+      4 tantalio
+   2019 tantalum
+   2814 technetium
+   7350 tell
+    101 tellone
+     90 tellur
+   1406 tellura
+      8 telluranthren
+     64 tellurat
+     74 tellurate
+     29 tellurin
+    106 tellurinyl
+     32 tellurite
+     68 tellurium
+    582 telluro
+    303 telluroate
+    148 tellurochromen
+      6 tellurocyanat
+     20 tellurocyanate
+      2 telluromorpholin
+     18 telluron
+      4 telluronia
+      1 tellurono
+     20 telluronyl
+     10 telluroph
+    954 tellurophen
+     32 telluropheno
+    176 telluropyran
+     76 telluropyrano
+     89 telluroxanthen
+    110 ter
+   1316 terbium
+   6608 terephthal
+    458 terephthalal
+4027230 tert-
+     16 tert-butyl(dimethyl)silanyl
+ 255054 tert-butyl(dimethyl)silyl
+      3 tert-butyl(diphenyl)silanyl
+  58736 tert-butyl(diphenyl)silyl
+     12 tert-butyl-dimethylsilyl
+      1 tert-butyl-diphenylsilyl
+ 114253 tetr
+7187878 tetra
+   7939 tetracarbon
+  27858 tetracont
+ 147095 tetracos
+      6 tetracosakis
+ 123715 tetradec
+ 494400 tetradeca
+    204 tetradecakis
+  72757 tetrakis
+    747 tetrali
+    193 tetraphosphat
+    139 tetraphosphate
+      6 tetraphosphor
+     41 tetrasulfid
+    254 tetrasulfide
+   4837 tetratetracont
+    227 tetrathion
+  20787 tetratriacont
+  31498 tetrol
+    223 thall
+   1544 thalla
+   8431 thallium
+     24 then
+  88616 thi
+9229170 thia
+   5321 thianthren
+     10 thianthreno
+1029873 thieno
+1331106 thio
+  57951 thiochromen
+  10839 thiochromeno
+    136 thiochromenylium
+   5458 thiocyanat
+  16133 thiocyanate
+ 935752 thiol
+ 201799 thiomorpholin
+   3699 thion
+ 311720 thione
+   1358 thionia
+   1424 thioph
+5176920 thiophen
+   1170 thiopyr
+  30097 thiopyran
+  19264 thiopyrano
+      3 thioxanth
+  28571 thioxanthen
+     83 thioxantheno
+      2 thora
+   1136 thorium
+      1 thulio
+    794 thulium
+  13143 tin
+    132 titana
+     23 titanio
+  36749 titanium
+      1 tol
+  19766 toluen
+19426521 tri
+    105 triacetamid
+  54832 triacont
+     22 triacontakis
+     69 tribenzamid
+  17737 tricarbon
+ 102133 tricos
+      6 tricosakis
+   2309 tricosyl
+  44087 tridec
+ 439972 trideca
+     61 tridecakis
+  32756 tridecyl
+     39 trifluoromethanesulfonimid
+    842 trili
+     54 trinaphthylen
+  37422 triphenylen
+    122 triphosphat
+    270 triphosphate
+    268 triphospho
+   1164 triphosphon
+     14 triphosphor
+ 238908 tris
+    265 triselen
+     20 triselenid
+    115 trisulfid
+    145 trisulfide
+   3552 tritetracont
+   6479 trithion
+  15463 tritio
+  27681 tritriacont
+  84483 trityl
+     33 tungsta
+  18397 tungsten
+    150 tungstenio
+  85679 uid
+  47423 uide
+ 131454 ul
+  94322 undec
+ 545813 undeca
+    124 undecakis
+  50486 undecyl
+     42 urana
+  47307 uranium
+     14 urazol
+1696661 urea
+      1 uronate
+      2 uronic acid
+     20 vanada
+     87 vanadio
+  12197 vanadium
+     88 water
+ 128094 xanthen
+    202 xantheno
+     16 xanthylium
+    284 xenon
+   6107 xylen
+289621578 yl
+10709807 ylamin
+7527504 ylidene
+  19625 ylidyne
+  15918 ylium
+1664998 yn
+  60436 yne
+      1 ytterbio
+   1786 ytterbium
+     12 yttrio
+  39531 yttrium
+  40523 zinc
+    140 zircona
+  42752 zirconium
