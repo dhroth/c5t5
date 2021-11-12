@@ -106,6 +106,7 @@ echo batch_size $batch_size
 OMP_NUM_THREADS=8 TOKENIZERS_PARALLELISM=true python -m torch.distributed.launch --nproc_per_node $nprocs /data/drothchild/code/chem/t5.py \
     --dataset_dir /data/drothchild/datasets/iupac/full \
     --vocab_fn $vocab_fn  \
+    --vocab_fn $vocab_fn \
     --output_dir "$output_dir" \
     --per_device_train_batch_size "$batch_size" \
     --learning_rate "$learning_rate" \
@@ -115,6 +116,7 @@ OMP_NUM_THREADS=8 TOKENIZERS_PARALLELISM=true python -m torch.distributed.launch
     --logging_dir $log_dir \
     --name_col $name_col \
     --dataset_filename pubchem.txt \
+    --target_col "$target_col" \
     --tokenizer_type $tokenizer_type \
     --prepend_target \
     --mask_probability 0.15 \
