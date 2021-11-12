@@ -18,6 +18,7 @@ import operator
 import math
 import random
 import sys
+import csv
 
 import torch
 import numpy as np
@@ -83,6 +84,11 @@ class IUPACArguments:
     balanced_sample: Optional[bool] = field(
             default=True,
             metadata={"help": "Use an equal number of source iupacs per tgt val"}
+    )
+    orig_iupacs: Optional[str] = field(
+            default=None,
+            metadata={"help": "File containing starting molecules " +
+                              "(fmt: chem,property_val)"}
     )
 
 
@@ -236,22 +242,6 @@ def main():
 
     tokenizer = tokenizer_class(vocab_file=iupac_args.vocab_fn)
 
-    dataset_kwargs = {
-            "dataset_dir": iupac_args.dataset_dir,
-            "tokenizer": tokenizer,
-            "max_length": MAXLEN,
-            "prepend_target": True,
-            "low_cutoff": iupac_args.low_cutoff,
-            "high_cutoff": iupac_args.high_cutoff,
-            "target_col": iupac_args.target_col,
-            "name_col": iupac_args.name_col,
-            "dataset_size": 1000000,
-            "mean_span_length": 3,
-            "mask_probability": 0,
-            "dataset_filename": iupac_args.dataset_filename
-    }
-    eval_dataset = IUPACDataset(train=False, **dataset_kwargs)
-
     # get the trained model
     config = T5Config.from_pretrained(iupac_args.model_path)
     model = T5ForConditionalGeneration(config)
@@ -276,32 +266,70 @@ def main():
         orig_iupacs = {"low": [], "high": []}
     elif iupac_args.conversion_pairs in ["high", "all_all"]:
         orig_iupacs = {"low": [], "med": [], "high": []}
+    else:
+        assert False, "invalid conversion_pairs arg"
 
-    iupacs_per_key = math.ceil(iupac_args.num_orig_iupacs / len(orig_iupacs.keys()))
+    if iupac_args.orig_iupacs is None:
+        dataset_kwargs = {
+                "dataset_dir": iupac_args.dataset_dir,
+                "tokenizer": tokenizer,
+                "max_length": MAXLEN,
+                "prepend_target": True,
+                "low_cutoff": iupac_args.low_cutoff,
+                "high_cutoff": iupac_args.high_cutoff,
+                "target_col": iupac_args.target_col,
+                "name_col": iupac_args.name_col,
+                "dataset_size": 1000000,
+                "mean_span_length": 3,
+                "mask_probability": 0,
+                "dataset_filename": iupac_args.dataset_filename
+        }
+        eval_dataset = IUPACDataset(train=False, **dataset_kwargs)
 
-    N = iupac_args.num_orig_iupacs
-    i = 0
-    while len(list(itertools.chain(*orig_iupacs.values()))) < N:
-        input_ids = eval_dataset[i]["input_ids"]
-        too_long = input_ids.numel() > 70
-        has_unk = (input_ids == tokenizer.unk_token_id).sum() > 0
-        if not has_unk and not too_long:
-            first = input_ids[H].item()
-            key = {low: "low", med: "med", high: "high"}[first]
-            if key in orig_iupacs:
-                if iupac_args.balanced_sample:
-                    # get iupacs_per_key for each key
-                    if len(orig_iupacs[key]) <= iupacs_per_key:
+        iupacs_per_key = math.ceil(iupac_args.num_orig_iupacs / len(orig_iupacs.keys()))
+
+        N = iupac_args.num_orig_iupacs
+        i = 0
+        while len(list(itertools.chain(*orig_iupacs.values()))) < N:
+            input_ids = eval_dataset[i]["input_ids"]
+            too_long = input_ids.numel() > 70
+            has_unk = (input_ids == tokenizer.unk_token_id).sum() > 0
+            if not has_unk and not too_long:
+                first = input_ids[H].item()
+                key = {low: "low", med: "med", high: "high"}[first]
+                if key in orig_iupacs:
+                    if iupac_args.balanced_sample:
+                        # get iupacs_per_key for each key
+                        if len(orig_iupacs[key]) <= iupacs_per_key:
+                            orig_iupacs[key].append(eval_dataset[i])
+                    else:
+                        # take every non-unk-containing iupac
                         orig_iupacs[key].append(eval_dataset[i])
-                else:
-                    # take every non-unk-containing iupac
-                    orig_iupacs[key].append(eval_dataset[i])
-        else:
-            # ignore names with <unk> in them and very long names
-            pass
-        i += 1
+            else:
+                # ignore names with <unk> in them and very long names
+                pass
+            i += 1
 
-    assert len(list(itertools.chain(*orig_iupacs.values()))) == N
+        assert len(list(itertools.chain(*orig_iupacs.values()))) == N
+    else:
+        # the user provided a file with original iupacs to use
+        with open(iupac_args.orig_iupacs, "r") as orig_iupacs_f:
+            reader = csv.DictReader(orig_iupacs_f, fieldnames=["iupac", "target"])
+            for line in reader:
+                if len(line["iupac"].strip()) == 0:
+                    # ignore blank inputs
+                    continue
+                tokenized = tokenizer(line["iupac"])
+                prop_token = {"low": low, "med": med, "high": high}[line["target"]]
+                input_ids = tokenized["input_ids"]
+                if H == 0:
+                    input_ids = [prop_token] + input_ids
+                elif H == 1:
+                    input_ids = [input_ids[0], prop_token] + input_ids[H:]
+                else:
+                    assert False, "invalid H"
+                tokenized["input_ids"] = torch.tensor(input_ids)
+                orig_iupacs[line["target"]].append(tokenized)
 
     generated_iupacs = []
     for datum in itertools.chain(*orig_iupacs.values()):
