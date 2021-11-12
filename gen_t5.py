@@ -256,8 +256,6 @@ def main():
     model.eval()
     model = model.cuda()
 
-    collator = T5Collator(tokenizer.pad_token_id)
-
     low = tokenizer._convert_token_to_id("<low>")
     med = tokenizer._convert_token_to_id("<med>")
     high = tokenizer._convert_token_to_id("<high>")
@@ -334,7 +332,6 @@ def main():
     generated_iupacs = []
     for datum in itertools.chain(*orig_iupacs.values()):
         inputs = datum["input_ids"]
-        labels = datum["labels"]
 
         #span_lengths = [[1], [2], [3], [1, 1], [1, 2], [2, 1], [2, 2]]
         # if you change span_lengths, you need to change the code in
