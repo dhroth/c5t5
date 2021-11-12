@@ -122,11 +122,37 @@ def check_if_reachable(tokenized, base_tokenized):
     tokenized_bag = set(tokenized.tolist())
     base_bag = set(base_tokenized.tolist())
 
+    # useful for IUPAC but not SMILES
     if len(tokenized_bag ^ base_bag) >= 15:
         return False
 
     if abs(len(tokenized) - len(base_tokenized)) > 15:
         return False
+
+    def len_shared_prefix(a, b):
+        are_same = a[:b.numel()] == b[:a.numel()]
+        cumsum = torch.cat((torch.tensor([True]), are_same), dim=0).cumsum(dim=0)
+        nz = (torch.diff(cumsum) - 1).nonzero()
+        if nz.numel() == 0:
+            # a is a prefix of b (or vice versa)
+            return min(a.numel(), b.numel())
+        else:
+            # the first time cumsum doesn't increase by 1 is the
+            # first difference
+            return nz[0].item()
+
+    shared_beginning = len_shared_prefix(base_tokenized, tokenized)
+    shared_end = len_shared_prefix(base_tokenized.flip(dims=(0,)),
+                                   tokenized.flip(dims=(0,)))
+
+    if base_tokenized.numel() - (shared_beginning + shared_end) > 6:
+        # we would have to mask more than 5 tokens of base_tokenized
+        # between the shared beginning and end in order to get to
+        # tokenized from base_tokenized
+        # use 6 instead of 5 because I may have an off-by-one error
+        # somewhere and this is just for performance
+        return False
+
 
     dist, src_mask, _ = levenshtein_distance(base_tokenized, tokenized)
     src_dilated = ndimage.binary_fill_holes(src_mask).astype(int)
