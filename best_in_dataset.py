@@ -5,7 +5,7 @@ import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy("file_system")
 from torch.utils.data import DataLoader, ConcatDataset
 
-from t5 import T5IUPACTokenizer, T5Collator
+from t5 import T5IUPACTokenizer, T5SMILESTokenizer, T5Collator
 from iupac_dataset import IUPACDataset
 from physprop_exp import levenshtein_distance
 
