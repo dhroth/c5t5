@@ -55,10 +55,6 @@ class DatasetArguments:
             default="Log P",
             metadata={"help": "Header of column that contains the target vals"}
     )
-    dataset_filename: str = field(
-            default="iupacs_logp.txt",
-            metadata={"help": "Filename containing data"}
-    )
     low_cutoff: float = field(
             default=-0.4,
             metadata={"help": "Cutoff between <low> and <med>"}
@@ -314,7 +310,6 @@ def main():
             "prepend_target": dataset_args.prepend_target,
             "target_col": dataset_args.target_col,
             "name_col": dataset_args.name_col,
-            "dataset_filename": dataset_args.dataset_filename,
             "low_cutoff": dataset_args.low_cutoff,
             "high_cutoff": dataset_args.high_cutoff,
             "mask_probability": dataset_args.mask_probability,
