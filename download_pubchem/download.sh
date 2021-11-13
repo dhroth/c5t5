@@ -21,6 +21,8 @@ for i in $(seq $MIN 5 $MAX); do
         if md5sum -c ${fn}.gz.md5; then
             echo md5 passed
             rm ${fn}.gz.md5
+            # pigz does multithreaded unzipping. If you don't have pigz,
+            # you can use gunzip by uncommenting the line below
             #gunzip $fn
             pigz -d -p 8 $fn
         else
