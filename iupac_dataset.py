@@ -188,25 +188,3 @@ class IUPACDataset(Dataset):
             return len(self.line_offsets) - 1
         else:
             return self.dataset_size
-
-
-class IUPACCollator:
-    def __init__(self, pad_token_id):
-        super().__init__()
-        self.pad_token_id = pad_token_id
-
-    def collate_batch(self, records):
-        # records is a list of dicts
-        batch = {}
-        padvals = {"input_ids": self.pad_token_id,
-                   "token_type_ids": 1,
-                   "attention_mask": 0}
-        for k in records[0]:
-            #if "label" in k:
-            if k in padvals:
-                batch[k] = pad_sequence([r[k].flatten() for r in records],
-                                        batch_first=True,
-                                        padding_value=padvals[k])
-            else:
-                batch[k] = torch.tensor([r[k] for r in records])
-        return batch
