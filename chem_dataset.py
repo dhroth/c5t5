@@ -18,7 +18,7 @@ from data_utils import mask_spans
 
 TRAIN_FRAC = 0.9
 
-class IUPACDataset(Dataset):
+class ChemDataset(Dataset):
     def __init__(self, dataset_dir, tokenizer, target_col=None,
                  return_target=False, low_cutoff=None, high_cutoff=None,
                  low_token="<low>", med_token="<med>", high_token="<high>",
@@ -95,8 +95,8 @@ class IUPACDataset(Dataset):
         try:
             self.name_col_id = headers.index(name_col)
         except ValueError as e:
-            raise RuntimeError("Expecting a column called '{}' "
-                               "that contains IUPAC names".format(name_col))
+            raise RuntimeError("Expecting a column called '{}' that contains "
+                               "chemical representations".format(name_col))
 
         self.target_col_id = None
         if self.target_col is not None:

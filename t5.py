@@ -8,7 +8,7 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
-from iupac_dataset import IUPACDataset
+from chem_dataset import ChemDataset
 from tok import T5IUPACTokenizer, T5SMILESTokenizer
 
 import os
@@ -184,9 +184,9 @@ def main():
             "mean_span_length": dataset_args.mean_span_length,
     }
 
-    train_dataset = IUPACDataset(train=True, **dataset_kwargs)
-    eval_dataset = IUPACDataset(train=False, dataset_size=50000,
-                                **dataset_kwargs)
+    train_dataset = ChemDataset(train=True, **dataset_kwargs)
+    eval_dataset = ChemDataset(train=False, dataset_size=50000,
+                               **dataset_kwargs)
 
     collator = T5Collator(tokenizer.pad_token_id)
 
