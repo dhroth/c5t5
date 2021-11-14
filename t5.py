@@ -40,7 +40,7 @@ class DatasetArguments:
             metadata={"help": "Fraction of tokens to mask"}
     )
     mean_span_length: int = field(
-            default=5,
+            default=3,
             metadata={"help": "Max contiguous span of tokens to mask"}
     )
     name_col: str = field(

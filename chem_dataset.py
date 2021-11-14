@@ -24,7 +24,7 @@ class ChemDataset(Dataset):
                  low_token="<low>", med_token="<med>", high_token="<high>",
                  train=True, max_length=None, preprocess=False,
                  dataset_size=None, prepend_target=False, name_col="Preferred",
-                 mask_probability=0.15, mask_spans=True, mean_span_length=5,
+                 mask_probability=0.15, mask_spans=True, mean_span_length=3,
                  dataset_filename="iupacs_logp.txt"):
         self.dataset_dir = dataset_dir
         self.tokenizer = tokenizer
